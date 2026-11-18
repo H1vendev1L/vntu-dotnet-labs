@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/src/">
     <Project Path="src/Pract01.UnitConverter/Pract01.UnitConverter.csproj" />
+    <Project Path="src/Pract02.CompanyEmployees/Pract02.CompanyEmployees.csproj" />
   </Folder>
 </Solution>

@@ -1,0 +1,12 @@
+namespace Pract01.UnitConverter.Models;
+
+/// <summary>
+/// Запис про виконану конвертацію для збереження в історії сесії.
+/// </summary>
+public readonly record struct ConversionRecord(
+    DateTime Timestamp,
+    string CategoryName,
+    double SourceValue,
+    string SourceUnitCode,
+    double TargetValue,
+    string TargetUnitCode);
